@@ -1,0 +1,62 @@
+@font-face {
+    src: url(CursedTimerULiL.ttf);
+    font-family: 'Cursed Timer ULiL';
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #ffd6ff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 40px;
+}
+
+h3 {
+    color: #03045e;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.score-card {
+    margin-top: 0px;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 90px;
+    color: #f1f2f6;
+    background: #3a0ca3;
+    padding: 10px 0px 5px;
+    border-radius: 5px;
+}
+
+.increment-card {
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #540d6e;
+    margin-top: 26px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.increment-card-el {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 3px solid #8ac926;
+    border-radius: 5px;
+}
+
+#new-game {
+    margin-top: 10px; 
+    padding: 7px 15px;
+    background: #03045e;
+    color: #8ecae6;
+    border: none;
+    border-radius: 5px;
+}
