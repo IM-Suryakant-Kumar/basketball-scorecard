@@ -1,6 +1,6 @@
 @font-face {
     src: url(CursedTimerULiL.ttf);
-    font-family: 'Cursed Timer ULiL';
+    font-family: "Cursed Timer ULiL";
 }
 
 body {
@@ -10,6 +10,8 @@ body {
 }
 
 .container {
+    width: 400px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     padding: 5px 40px;
@@ -24,7 +26,7 @@ h3 {
 
 .score-card {
     margin-top: 0px;
-    font-family: 'Cursed Timer ULiL';
+    font-family: "Cursed Timer ULiL";
     font-size: 90px;
     color: #f1f2f6;
     background: #3a0ca3;
@@ -33,7 +35,7 @@ h3 {
 }
 
 .increment-card {
-    font-family: 'Cursed Timer ULiL';
+    font-family: "Cursed Timer ULiL";
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -53,7 +55,7 @@ h3 {
 }
 
 #new-game {
-    margin-top: 10px; 
+    margin-top: 10px;
     padding: 7px 15px;
     background: #03045e;
     color: #8ecae6;
